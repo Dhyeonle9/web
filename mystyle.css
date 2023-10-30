@@ -1,0 +1,67 @@
+h3 {
+    color:green;
+}
+
+p {
+    color:rgb(255, 0, 0);
+}
+/* id 선택자 */
+#two {
+    color:rgb(93, 0, 139);
+}
+/* .class 선택자 */
+.orange {
+    color:orange;
+}
+p.center {
+    text-align: center;
+}
+
+p#size {
+    font-size: 50px;
+}
+
+li {
+    color: blueviolet;
+    background-color: #00ff00;
+}
+/* class가 korean인 ul 하위(자식)인 li 태그만 골라서 */
+ul.korean > li {
+    color:aquamarine;
+}
+
+.box {
+    /* border: 5px groove red; */
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
+
+    margin-top: 10px;
+    margin-left: 5px;
+
+    padding-top: 10px;
+    padding: 5px;
+
+    text-align: center;
+}
+
+.font {
+    font-family: Tangerine;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORM</h1>
+    <form action="">
+        <p>주문서를 작성해 주세요.</p>
+        <div>
+            <div>
+                <label for="name">이름</label>
+                <input type="text" id="name" name="name" placeholder="이름을 입력해주세요.">
+            </div>
+            <div>
+            <label for="date">날짜</label>
+            <input type="date" name="date" id="date" value="2023-10-31">
+            </div>  
+        </div>
+        <hr>
+        <div>
+            <h2>샌드위치 선택</h2>
+            <label for="menu1">에그마요</label>
+            <input type="radio" name="menu" id="menu1" value="에그마요">
+            <label for="menu2">BLT</label>
+            <input type="radio" name="menu" id="menu2" value="BLT">
+            <label for="menu3">터키</label>
+            <input type="radio" name="menu" id="menu3" value="터키">
+        </div>
+        <hr>
+        <div>
+            <h2>사이즈 선택</h2>
+            <input type="number" name="size" id="" value="15" step="15" min="15" max="30">
+        </div>  
+        <hr>
+        <div>
+            <h2>빵선택</h2>
+            <select name="bread" id="">
+                <option value="하티이탈리안">하티이탈리안</option>
+                <option value="화이트">화이트</option>
+                <option value="플랫브레드" disabled>플랫브레드</option>
+            </select>
+        </div>
+        <hr>
+        <div>
+            <h2>야채/소스</h2>
+            <input type="checkbox" name="tomato" id="tomato" value="True">
+            <label for="tomato">토마토</label>
+            <input type="checkbox" name="cucumber" id="cucumber" value="True">
+            <label for="cucumber">오이</label>
+            <input type="checkbox" name="pepper" id="pepper" value="True">
+            <label for="pepper">후추</label>
+            <input type="checkbox" name="chili" id="chili" value="True">
+            <label for="chili">칠리</label>
+            <input type="checkbox" name="bbq" id="bbq" value="True">
+            <label for="bbq">바베큐</label> 
+        </div>
+        <hr>
+        <div>
+            <input type="submit" value="제출">
+        </div>
+    </form>
+</body>
+</html>
